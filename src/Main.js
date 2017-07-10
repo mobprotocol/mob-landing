@@ -4,7 +4,8 @@ import {
   Row,
   Col
 } from 'react-bootstrap'
-import Center from 'react-center'
+
+import css from './index.css'
 
 export default class Main extends Component {
   constructor() {
@@ -13,25 +14,27 @@ export default class Main extends Component {
 
   render() {
     return (
-      <Grid>
+      <div>
         <Row>
-          <Center>
-            <Col sm={6}>
-              <Center>
-                <h1 style={{
-                  paddingBottom: 20,
-                  color: '#484848'
-                }}>
+          <Col sm={6} style={{ height: 500, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+              <div>
+                <img src='./src/imgs/mob_logo.png' />
+              </div>
+          </Col>
+          <Col sm={6} style={{ height: 500 }}>
+              <div style={{ height: 200, color: '#484848' }}>
+                <h1>
                   m o b
                 </h1>
-              </Center>
-              <Center>
-                <img src='./src/imgs/mob_logo.png' />
-              </Center>
-            </Col>
-          </Center>
+                <h3>
+                  ERC20 exchange network
+                </h3>
+              </div>
+          </Col>
         </Row>
-      </Grid>
+        <Row style={{ height: 400, backgroundColor: '#484848' }}>
+        </Row>
+      </div>
     )
   }
 }
