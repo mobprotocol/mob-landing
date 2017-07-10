@@ -17,7 +17,17 @@ export default class Main extends Component {
         <Row>
           <Center>
             <Col sm={6}>
-              <h1>Mob</h1>
+              <Center>
+                <h1 style={{
+                  paddingBottom: 20,
+                  color: '#484848'
+                }}>
+                  m o b
+                </h1>
+              </Center>
+              <Center>
+                <img src='./src/imgs/mob_logo.png' />
+              </Center>
             </Col>
           </Center>
         </Row>
