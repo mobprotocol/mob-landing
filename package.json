@@ -15,5 +15,9 @@
     "webpack"
   ],
   "author": "Sean Pollock",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^3.1.0",
+    "webpack-dev-server": "^2.5.1"
+  }
 }
