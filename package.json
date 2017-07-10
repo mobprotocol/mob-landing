@@ -4,7 +4,7 @@
   "description": "landing page for Mob",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "wds":  "webpack-dev-server"
   },
   "keywords": [
     "exchange",
