@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-
 import {
   Grid,
   Row,
   Col
 } from 'react-bootstrap'
+import Center from 'react-center'
 
 export default class Main extends Component {
   constructor() {
@@ -15,9 +15,11 @@ export default class Main extends Component {
     return (
       <Grid>
         <Row>
-          <Col sm={6}>
-            <h1>Mob</h1>
-          </Col>
+          <Center>
+            <Col sm={6}>
+              <h1>Mob</h1>
+            </Col>
+          </Center>
         </Row>
       </Grid>
     )
