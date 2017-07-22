@@ -4,6 +4,8 @@ import {
   Row,
 } from 'react-bootstrap'
 
+import Item from './Item'
+
 export default class Content extends Component {
   constructor() {
     super()
@@ -11,7 +13,8 @@ export default class Content extends Component {
 
   render() {
     return (
-      <Grid style={{ backgroundColor: '#F5F5F5' }}>
+      <Grid style={{  padding: 50 }}>
+        <Item />
       </Grid>
     )
   }
